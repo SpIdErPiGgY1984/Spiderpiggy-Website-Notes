@@ -1,7 +1,8 @@
 # Mozilla Add-ons submission checklist (v1.0.0)
 
 1. Upload **Spiderpiggy-Website-Notes-1.0.0-AMO.zip** at https://addons.mozilla.org/developers/addon/submit/ as a new Firefox extension. Choose **On this site** for a publicly listed add-on, if desired. The ZIP contains `manifest.json` at its root.
-2. Keep the add-on ID `websitenotes@spiderpiggy.com` unchanged for future updates.
+2. Browser compatibility: minimum Firefox desktop 140.0 and Firefox for Android 142.0 to support the manifest privacy declaration, optional host permissions and runtime permissions. Verify Android UX before distributing there.
+3. Keep the add-on ID `websitenotes@spiderpiggy.com` unchanged for future updates.
 3. For data collection, verify **No data collected/transmitted** matches current behavior. The manifest declares `data_collection_permissions.required: ["none"]` (required for new AMO submissions).
 4. Permissions to explain: local storage, toolbar-triggered access to the active tab, script insertion for sticky notes, and *optional* HTTP/HTTPS website access for automatic display. The broad permission is **not granted on installation** and must be explicitly accepted.
 5. Privacy policy: the text in `PRIVACY.md` can be used in Mozilla's listing and/or on the Spiderpiggy support website. It must remain accurate if functionality changes.
