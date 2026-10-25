@@ -13,6 +13,11 @@ Firefox extension for private notes linked to a website or an individual web pag
 - Searchable note manager, editing, deletion, and JSON import/export.
 - Dutch and English translations and light/dark appearance.
 
+## Browser compatibility
+
+- Minimum Firefox desktop: **140.0**.
+- Minimum Firefox for Android: **142.0**. The add-on has been tested mainly on desktop; test the Android interface before publishing as Android-compatible.
+
 ## Install for development
 
 Open `about:debugging#/runtime/this-firefox` in Firefox, click **Load Temporary Add-on**, and select the root `manifest.json` from the extracted archive. A production installation needs Mozilla's signature.
