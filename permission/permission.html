@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="nl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Spiderpiggy Website Notes</title>
+<link rel="stylesheet" href="permission.css"></head>
+<body>
+  <main class="card">
+    <header><span class="logo" aria-hidden="true">📝</span><div>
+      <h1>Spiderpiggy <b>Website Notes</b></h1>
+      <div class="subtitle" data-i18n="localOnly"></div>
+    </div></header>
+    <div class="body">
+      <div class="lock" aria-hidden="true">🔒</div>
+      <h2 id="intro" data-i18n="permissionIntro"></h2>
+      <div class="site" id="site"></div>
+      <p id="explanation" data-i18n="permissionExplanation"></p>
+      <div id="detail" class="info" data-i18n="permissionOnlyThisSite"></div>
+      <p class="notice" id="status" role="status" aria-live="polite" hidden></p>
+      <button type="button" id="grant" class="primary" data-i18n="permissionGrant"></button>
+      <button type="button" id="skip" class="secondary" data-i18n="permissionSkip"></button>
+    </div>
+  </main>
+  <script src="../shared.js"></script>
+  <script src="../auto-config.js"></script>
+  <script src="../content/sticky.js"></script>
+  <script src="permission.js"></script>
+</body></html>

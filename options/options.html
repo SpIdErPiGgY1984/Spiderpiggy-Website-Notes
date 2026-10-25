@@ -1,0 +1,14 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Spiderpiggy Website Notes</title><link rel="stylesheet" href="options.css"></head><body>
+<div class="shell">
+<header><div><div class="eyebrow">SPIDERPIGGY TOOLS · 1.0.0</div><h1>📝 Website Notes</h1><p data-i18n="privacyMessage"></p></div>
+<div class="toolbar"><label for="theme" data-i18n="theme"></label><select id="theme"><option value="system" data-i18n="systemTheme"></option><option value="light" data-i18n="lightTheme"></option><option value="dark" data-i18n="darkTheme"></option></select></div></header>
+<section class="accessPanel"><div><strong data-i18n="allSitesSettingTitle"></strong><p data-i18n="allSitesSettingInfo"></p><small id="allAccessState"></small></div><div><button type="button" id="allSitesGrant" data-i18n="grantAllSites"></button><button type="button" id="allSitesRevoke" data-i18n="revokeAllSites" hidden></button></div></section>
+<section class="stats"><div><strong id="total">0</strong><span data-i18n="totalNotes"></span></div><div><strong id="sites">0</strong><span data-i18n="websitesCount"></span></div></section>
+<section class="panel"><div class="tools"><input id="search" type="search" data-i18n-placeholder="searchPlaceholder" aria-label="Search"><select id="filter"><option value="all" data-i18n="allNotes"></option><option value="site" data-i18n="website"></option><option value="page" data-i18n="thisPage"></option></select><button id="export" data-i18n="exportBackup"></button><label class="filebtn" for="import" data-i18n="importBackup"></label><input type="file" id="import" accept="application/json,.json" hidden></div>
+<div id="feedback" class="feedback" aria-live="polite" hidden></div><div id="notes" class="notes"></div></section>
+<footer><span data-i18n="backupWarning"></span><span><a href="https://spiderpiggy.com/" target="_blank" rel="noopener noreferrer">Spiderpiggy</a></span></footer>
+</div>
+<div id="modal" class="overlay" hidden><section class="dialog" role="dialog" aria-modal="true" aria-labelledby="dialogTitle"><h2 id="dialogTitle" data-i18n="editNote"></h2><p id="dialogMeta"></p><label for="editTitle" data-i18n="customTitleLabel"></label><input id="editTitle" maxlength="70" data-i18n-placeholder="customTitlePlaceholder" autocomplete="off"><textarea id="editText" maxlength="20000" rows="12"></textarea><div class="dialogActions"><button id="cancel" data-i18n="cancel"></button><button id="save" class="primary" data-i18n="save"></button></div></section></div>
+<script src="../shared.js"></script><script src="options.js"></script>
+</body></html>

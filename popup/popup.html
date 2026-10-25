@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="nl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Spiderpiggy Website Notes</title><link rel="stylesheet" href="popup.css"></head>
+<body>
+  <header class="top"><span class="logo">📝</span><div><h1>Spiderpiggy <b>Website Notes</b></h1><div class="version" data-i18n="localOnly"></div></div><button id="settings" class="iconbutton" data-i18n-title="openOverview" aria-label="Overview">⚙</button></header>
+  <main>
+    <div id="site" class="site" title=""></div>
+    <div class="switch" role="group" aria-label="Note scope">
+      <button id="siteMode" class="selected" data-i18n="website" aria-pressed="true"></button>
+      <button id="pageMode" data-i18n="thisPage" aria-pressed="false"></button>
+    </div>
+    <div id="notice" class="notice" hidden></div>
+    <label for="customTitle" class="fieldlabel" data-i18n="customTitleLabel"></label>
+    <input id="customTitle" class="titleInput" maxlength="70" data-i18n-placeholder="customTitlePlaceholder" autocomplete="off">
+    <label for="note" class="fieldlabel" data-i18n="yourNote"></label>
+    <textarea id="note" rows="9" maxlength="20000" data-i18n-placeholder="notePlaceholder" spellcheck="true"></textarea>
+    <div class="colorRow"><span id="colorLabel" data-i18n="noteColor">Kleur</span><div class="colors" id="colors" role="group" aria-labelledby="colorLabel"></div></div>
+    <div class="meta"><span id="saved" data-i18n="savedAutomatically"></span><span id="count">0 / 20.000</span></div>
+    <label id="autoRow" class="autoRow"><input type="checkbox" id="autoShow"><span data-i18n="autoShowForSite"></span></label>
+    <div id="permissionHint" class="permissionHint" data-i18n="permissionFirstHint" hidden></div>
+    <button type="button" id="allAccess" class="allAccess" data-i18n="grantAllSites"></button>
+    <button id="sticky" class="primary" data-i18n="openSticky">🗒️ Sticky note op website</button>
+    <div class="bottom"><button id="overview" class="quiet" data-i18n="allNotes"></button><button id="delete" class="quiet danger" data-i18n="deleteNote"></button></div>
+  </main>
+  <script src="../shared.js"></script><script src="../content/sticky.js"></script><script src="../auto-config.js"></script><script src="popup.js"></script>
+</body></html>

@@ -1,0 +1,4 @@
+Copyright (c) 2026 Spiderpiggy. All rights reserved.
+
+This is the original Spiderpiggy Website Notes source release.
+No third-party libraries or bundled code are included.

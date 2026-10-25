@@ -1,0 +1,248 @@
+{
+  "extensionName": {
+    "message": "Spiderpiggy Website Notes"
+  },
+  "extensionDescription": {
+    "message": "Bewaar privénotities per website of pagina, met een verplaatsbare sticky note en lokale back-ups."
+  },
+  "localOnly": {
+    "message": "Privé · lokaal opgeslagen"
+  },
+  "openOverview": {
+    "message": "Instellingen en notitieoverzicht"
+  },
+  "website": {
+    "message": "Website"
+  },
+  "thisPage": {
+    "message": "Deze pagina"
+  },
+  "yourNote": {
+    "message": "Jouw notitie"
+  },
+  "notePlaceholder": {
+    "message": "Typ hier je notitie…"
+  },
+  "savedAutomatically": {
+    "message": "Automatisch opgeslagen ✓"
+  },
+  "saving": {
+    "message": "Opslaan…"
+  },
+  "saveFailed": {
+    "message": "Opslaan mislukt"
+  },
+  "deleted": {
+    "message": "Notitie verwijderd"
+  },
+  "openSticky": {
+    "message": "🗒️ Sticky note op website openen"
+  },
+  "allNotes": {
+    "message": "Alle notities"
+  },
+  "deleteNote": {
+    "message": "Verwijderen"
+  },
+  "confirmDelete": {
+    "message": "Deze notitie definitief verwijderen?"
+  },
+  "unsupportedPage": {
+    "message": "Geen gewone website"
+  },
+  "restrictedHelp": {
+    "message": "Open een normale http(s)-website om een notitie te maken. Firefox-systeem- en Mozilla-add-onpagina's zijn niet toegankelijk."
+  },
+  "stickyUnavailable": {
+    "message": "Firefox staat sticky notes op deze pagina niet toe. Probeer een gewone website."
+  },
+  "close": {
+    "message": "Sluiten"
+  },
+  "privacyMessage": {
+    "message": "Al je notities blijven op dit apparaat. Geen account, geen tracking, geen synchronisatie."
+  },
+  "theme": {
+    "message": "Weergave"
+  },
+  "systemTheme": {
+    "message": "Systeem"
+  },
+  "lightTheme": {
+    "message": "Licht"
+  },
+  "darkTheme": {
+    "message": "Donker"
+  },
+  "totalNotes": {
+    "message": "Notities"
+  },
+  "websitesCount": {
+    "message": "Websites"
+  },
+  "searchPlaceholder": {
+    "message": "Zoek in je notities…"
+  },
+  "exportBackup": {
+    "message": "↓ Exporteren"
+  },
+  "importBackup": {
+    "message": "↑ Importeren"
+  },
+  "backupWarning": {
+    "message": "Tip: maak regelmatig een JSON-back-up. Verwijderen van de add-on wist de lokale notities."
+  },
+  "noNotes": {
+    "message": "Geen notities gevonden. Open een website en maak je eerste notitie!"
+  },
+  "editNote": {
+    "message": "Bewerken"
+  },
+  "cancel": {
+    "message": "Annuleren"
+  },
+  "save": {
+    "message": "Opslaan"
+  },
+  "backupCreated": {
+    "message": "Back-upbestand aangemaakt"
+  },
+  "invalidBackup": {
+    "message": "Ongeldig of te groot back-upbestand"
+  },
+  "confirmImport": {
+    "message": "Notities importeren? Bestaande notities met dezelfde website/pagina worden overschreven."
+  },
+  "importSuccessful": {
+    "message": "Notities geïmporteerd"
+  },
+  "stickyFailed": {
+    "message": "De sticky note kon niet worden geopend."
+  },
+  "autoShowForSite": {
+    "message": "Sticky note automatisch tonen op deze website"
+  },
+  "autoPermissionDenied": {
+    "message": "Toegang geweigerd. Automatisch tonen blijft uitgeschakeld."
+  },
+  "autoSetFailed": {
+    "message": "Automatisch tonen instellen mislukt."
+  },
+  "noteColor": {
+    "message": "Kleur van de notitie"
+  },
+  "chooseNoteColor": {
+    "message": "Kies een kleur"
+  },
+  "color_default": {
+    "message": "Standaard"
+  },
+  "color_yellow": {
+    "message": "Geel"
+  },
+  "color_mint": {
+    "message": "Mintgroen"
+  },
+  "color_blue": {
+    "message": "Lichtblauw"
+  },
+  "color_pink": {
+    "message": "Roze"
+  },
+  "color_lavender": {
+    "message": "Lavendel"
+  },
+  "color_slate": {
+    "message": "Donkerblauw"
+  },
+  "minimize": {
+    "message": "Inklappen"
+  },
+  "restore": {
+    "message": "Uitklappen"
+  },
+  "permissionPageTitle": {
+    "message": "Toestemming voor sticky notes"
+  },
+  "permissionIntro": {
+    "message": "Automatische sticky notes op deze website"
+  },
+  "permissionExplanation": {
+    "message": "Om je notitie automatisch terug te tonen na F5, heeft Spiderpiggy Website Notes toegang nodig tot deze website. Firefox vraagt dit slechts één keer zolang je de toestemming behoudt."
+  },
+  "permissionOnlyThisSite": {
+    "message": "Alleen deze website. Je notities blijven lokaal opgeslagen."
+  },
+  "permissionGrant": {
+    "message": "Toestemming geven en terug naar website"
+  },
+  "permissionSkip": {
+    "message": "Niet nu"
+  },
+  "permissionSuccess": {
+    "message": "Toestemming gegeven! Automatische sticky notes staan nu aan."
+  },
+  "permissionDeclined": {
+    "message": "Geen toestemming gegeven. Je kunt de gewone popup blijven gebruiken."
+  },
+  "permissionError": {
+    "message": "Het instellen van de toestemming is mislukt."
+  },
+  "permissionInvalid": {
+    "message": "De website kon niet veilig worden vastgesteld. Open de add-on opnieuw vanuit de gewenste website."
+  },
+  "permissionRetry": {
+    "message": "Opnieuw proberen"
+  },
+  "permissionCompleted": {
+    "message": "Je kunt dit tabblad sluiten en terugkeren naar de website."
+  },
+  "permissionFirstHint": {
+    "message": "Voor automatisch tonen opent Firefox één keer een aparte toestemmingspagina. Zo blijft de Firefox-vraag goed zichtbaar."
+  },
+  "customTitleLabel": {
+    "message": "Eigen titel (optioneel)"
+  },
+  "customTitlePlaceholder": {
+    "message": "Bijv. Forum to-do"
+  },
+  "editTitle": {
+    "message": "Titel wijzigen"
+  },
+  "grantAllSites": {
+    "message": "🌐 Toegang geven tot alle websites"
+  },
+  "allSitesGranted": {
+    "message": "✓ Alle websites toegestaan"
+  },
+  "allSitesNotGranted": {
+    "message": "Alle websites nog niet toegestaan"
+  },
+  "allSitesSettingTitle": {
+    "message": "Toegang voor alle websites"
+  },
+  "allSitesSettingInfo": {
+    "message": "Optioneel. Geef in één keer toegang tot gewone websites. Automatisch tonen blijft per website instelbaar. Firefox-systeempagina’s blijven uitgesloten."
+  },
+  "revokeAllSites": {
+    "message": "Alle-websitetoegang intrekken"
+  },
+  "confirmRevokeAllSites": {
+    "message": "De algemene website-toestemming intrekken? Eerder afzonderlijk verleende toestemmingen kunnen behouden blijven."
+  },
+  "allSitesLabel": {
+    "message": "Alle gewone websites (HTTP en HTTPS)"
+  },
+  "allSitesPermissionIntro": {
+    "message": "Toegang geven tot alle websites"
+  },
+  "allSitesPermissionExplain": {
+    "message": "Met deze vrijwillige toestemming hoef je niet meer per website opnieuw toegang te geven. Dit geldt voor gewone HTTP- en HTTPS-websites; beveiligde Firefox-pagina’s blijven uitgesloten."
+  },
+  "allSitesPermissionDetail": {
+    "message": "Automatisch tonen blijft per website apart instelbaar. Notities blijven op je eigen toestel. Je kunt deze toestemming later intrekken via Instellingen."
+  },
+  "allSitesSuccess": {
+    "message": "Toestemming voor alle websites is gegeven. Je kunt dit tabblad sluiten en de add-on gebruiken."
+  }
+}

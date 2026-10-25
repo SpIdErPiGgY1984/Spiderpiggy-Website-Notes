@@ -1,0 +1,248 @@
+{
+  "extensionName": {
+    "message": "Spiderpiggy Website Notes"
+  },
+  "extensionDescription": {
+    "message": "Private notes per website or page, with movable sticky notes and local backups."
+  },
+  "localOnly": {
+    "message": "Private · saved locally"
+  },
+  "openOverview": {
+    "message": "Settings and notes overview"
+  },
+  "website": {
+    "message": "Website"
+  },
+  "thisPage": {
+    "message": "This page"
+  },
+  "yourNote": {
+    "message": "Your note"
+  },
+  "notePlaceholder": {
+    "message": "Write your note here…"
+  },
+  "savedAutomatically": {
+    "message": "Saved automatically ✓"
+  },
+  "saving": {
+    "message": "Saving…"
+  },
+  "saveFailed": {
+    "message": "Could not save"
+  },
+  "deleted": {
+    "message": "Note deleted"
+  },
+  "openSticky": {
+    "message": "🗒️ Open sticky note on website"
+  },
+  "allNotes": {
+    "message": "All notes"
+  },
+  "deleteNote": {
+    "message": "Delete"
+  },
+  "confirmDelete": {
+    "message": "Permanently delete this note?"
+  },
+  "unsupportedPage": {
+    "message": "Not a regular website"
+  },
+  "restrictedHelp": {
+    "message": "Open a regular http(s) website to create notes. Firefox system pages and Mozilla add-on pages are restricted."
+  },
+  "stickyUnavailable": {
+    "message": "Firefox does not allow sticky notes on this page. Try a regular website."
+  },
+  "close": {
+    "message": "Close"
+  },
+  "privacyMessage": {
+    "message": "All notes stay on this device. No account, no tracking, no syncing."
+  },
+  "theme": {
+    "message": "Theme"
+  },
+  "systemTheme": {
+    "message": "System"
+  },
+  "lightTheme": {
+    "message": "Light"
+  },
+  "darkTheme": {
+    "message": "Dark"
+  },
+  "totalNotes": {
+    "message": "Notes"
+  },
+  "websitesCount": {
+    "message": "Websites"
+  },
+  "searchPlaceholder": {
+    "message": "Search your notes…"
+  },
+  "exportBackup": {
+    "message": "↓ Export"
+  },
+  "importBackup": {
+    "message": "↑ Import"
+  },
+  "backupWarning": {
+    "message": "Tip: make regular JSON backups. Removing the add-on deletes local notes."
+  },
+  "noNotes": {
+    "message": "No notes found. Open a website and write your first note!"
+  },
+  "editNote": {
+    "message": "Edit"
+  },
+  "cancel": {
+    "message": "Cancel"
+  },
+  "save": {
+    "message": "Save"
+  },
+  "backupCreated": {
+    "message": "Backup file created"
+  },
+  "invalidBackup": {
+    "message": "Invalid or oversized backup file"
+  },
+  "confirmImport": {
+    "message": "Import notes? Existing notes for the same site or page will be overwritten."
+  },
+  "importSuccessful": {
+    "message": "Notes imported"
+  },
+  "stickyFailed": {
+    "message": "Could not open the sticky note."
+  },
+  "autoShowForSite": {
+    "message": "Automatically show sticky notes on this website"
+  },
+  "autoPermissionDenied": {
+    "message": "Permission denied. Automatic sticky notes remain disabled."
+  },
+  "autoSetFailed": {
+    "message": "Could not configure automatic sticky notes."
+  },
+  "noteColor": {
+    "message": "Note color"
+  },
+  "chooseNoteColor": {
+    "message": "Choose a color"
+  },
+  "color_default": {
+    "message": "Default"
+  },
+  "color_yellow": {
+    "message": "Yellow"
+  },
+  "color_mint": {
+    "message": "Mint green"
+  },
+  "color_blue": {
+    "message": "Light blue"
+  },
+  "color_pink": {
+    "message": "Pink"
+  },
+  "color_lavender": {
+    "message": "Lavender"
+  },
+  "color_slate": {
+    "message": "Dark blue"
+  },
+  "minimize": {
+    "message": "Minimize"
+  },
+  "restore": {
+    "message": "Expand"
+  },
+  "permissionPageTitle": {
+    "message": "Permission for sticky notes"
+  },
+  "permissionIntro": {
+    "message": "Automatically show sticky notes on this website"
+  },
+  "permissionExplanation": {
+    "message": "To restore your note automatically after a refresh, Spiderpiggy Website Notes needs access to this website. Firefox asks only once while you keep the permission."
+  },
+  "permissionOnlyThisSite": {
+    "message": "This website only. Your notes stay on your device."
+  },
+  "permissionGrant": {
+    "message": "Grant access and return to website"
+  },
+  "permissionSkip": {
+    "message": "Not now"
+  },
+  "permissionSuccess": {
+    "message": "Permission granted! Automatic sticky notes are now enabled."
+  },
+  "permissionDeclined": {
+    "message": "Access was not granted. You can still use the regular popup."
+  },
+  "permissionError": {
+    "message": "Could not set up site access."
+  },
+  "permissionInvalid": {
+    "message": "The website could not be verified. Open the add-on from the desired website again."
+  },
+  "permissionRetry": {
+    "message": "Try again"
+  },
+  "permissionCompleted": {
+    "message": "You may close this tab and return to the website."
+  },
+  "permissionFirstHint": {
+    "message": "For automatic display, Firefox opens a separate one-time permission page so its prompt remains visible."
+  },
+  "customTitleLabel": {
+    "message": "Custom title (optional)"
+  },
+  "customTitlePlaceholder": {
+    "message": "E.g. Forum to-do"
+  },
+  "editTitle": {
+    "message": "Edit title"
+  },
+  "grantAllSites": {
+    "message": "🌐 Allow access to all websites"
+  },
+  "allSitesGranted": {
+    "message": "✓ All websites allowed"
+  },
+  "allSitesNotGranted": {
+    "message": "All-sites access not granted"
+  },
+  "allSitesSettingTitle": {
+    "message": "Access to all websites"
+  },
+  "allSitesSettingInfo": {
+    "message": "Optional. Grant access to normal websites in one step. Automatic sticky notes remain configurable per website. Firefox system pages remain excluded."
+  },
+  "revokeAllSites": {
+    "message": "Revoke all-sites access"
+  },
+  "confirmRevokeAllSites": {
+    "message": "Revoke broad website access? Any permissions granted separately for individual websites may remain."
+  },
+  "allSitesLabel": {
+    "message": "All regular HTTP and HTTPS websites"
+  },
+  "allSitesPermissionIntro": {
+    "message": "Grant access to all websites"
+  },
+  "allSitesPermissionExplain": {
+    "message": "With this optional permission, Firefox does not need to ask again for each website. This applies to normal HTTP and HTTPS websites; restricted Firefox pages are excluded."
+  },
+  "allSitesPermissionDetail": {
+    "message": "Automatic sticky notes remain optional for each website. Notes stay on your device. You can revoke this permission from Settings later."
+  },
+  "allSitesSuccess": {
+    "message": "All-sites permission granted. You can close this tab and use the extension."
+  }
+}
